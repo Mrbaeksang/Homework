@@ -1,7 +1,7 @@
 // App.jsx
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
-import Chapter1 from './pages/Chapter1.jsx';
+import Chapter1 from './pages/chapter1.jsx';
 
 function App() {
   return (
