@@ -5,12 +5,12 @@ import profileImg from './assets/images/zi-a.png';
 function App() {
   return (
     <div className="main-container">
-      <h1 className="title">정지아의 리액트 ✨</h1>
+      <h1 className="title">백상현의 숙제장 ✨</h1>
 
       <ProfileCard
         image={profileImg}
-        name="정지아"
-        description="신소재를 사랑하는 개발자입니다."
+        name="백상현"
+        description="진주 부트캠프 10기 수강생입니다."
       />
 
       <div className="link-area">
@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          📘 CHAPTER 3 - 기초
+          📘 CHAPTER 1 - 숙제
         </a>
         <a
           className="link-button"
@@ -28,7 +28,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          📙 CHAPTER 3 게시판 CRUD
+          📙 CHAPTER 2 공부 노트
         </a>
         <a
           className="link-button"
@@ -36,7 +36,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          📗 CHAPTER 3 게시판 + MySQL
+          📗 CHAPTER 3 프로젝트
         </a>
       </div>
     </div>
