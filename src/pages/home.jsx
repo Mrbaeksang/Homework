@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+// src/pages/home.jsx
 import '../App.css';
 import ProfileCard from '../components/ProfileCard';
 import profileImg from '../assets/images/hyeon.jpg';
